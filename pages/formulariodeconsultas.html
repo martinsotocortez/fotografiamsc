@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario de Consultas</title>
+    <link rel="stylesheet" href="/css/formulariodeconsultas.css">
+</head>
+<body>
+
+    <h1> Formulario de Consultas</h1>
+    <section>
+        <form
+  action="https://formspree.io/f/mgveeanl"
+  method="POST"
+>
+<fieldset>
+  <legend> Hace tu consulta para trabajar con nosotros </legend>
+
+  <label for="nombre"> Nombre </label><br>
+  <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+
+  <label for="apellido"> Apellido </label><br>
+  <input type="text" id="apellido" name="apellido" placeholder="Apellido"><br>
+  
+  <label for="email"> Tu email </label> <br>
+    <input type="email" id="email" name="email" placeholder="Email"><br>
+
+    <label for="opciones"> En qué área necesitas ayuda </label><br>
+    <select name="opciones" id="opciones" multiple>
+      <option value="">Producto</option>
+      <option value="">Moda</option>
+      <option value="">Filmmaking</option>
+    </select><br>
+  
+  <label for="consulta"> Tu consulta: </label><br>
+    <textarea name="message" id="consulta" placeholder="Contanos que idea queres materializar"></textarea><br>
+
+  <!-- your other form fields go here -->
+  <button type="submit">Enviar</button>
+</fieldset>
+
+</form>
+    </section>
+    
+</body>
+</html>
